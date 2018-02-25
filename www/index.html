@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/cssIcons.css" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+
+<body style="background-color:#B0C4DE;">
+  <!--SideNav-->
+  <div class="navbar-fixed">
+    <nav class="blue darken-3 z-depth-0">
+      <div class="nav-wrapper">
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+        <img src="img/icon_app.png" class="brand-logo center" style="width:150px;">
+      </div>
+    </nav>
+
+  </div>
+  <ul id="slide-out" class="side-nav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="img/backgroundPerfil.jpg">
+      </div>
+      <a href="#!user"><img id="fotoLogin" class="circle" ></a>
+      <a href="#!name"><span id="nomeLogin" class="white-text name"></span></a>
+      <a href="#!email"><span id="emailLogin" class="white-text email"></span></a>
+    </div></li>
+    <li><a href="#!">Início</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader" style="margin-left: -10px;">Opções</a></li>
+    <li><a id="logout" class="waves-effect" href="login.html" style="margin-left: -12px;"><i class="material-icons" style="margin-right: 0px;" >exit_to_app</i>Logout</a></li>
+  </ul>
+
+  <!--CardPanel 1-->
+  <div class="row">
+    <div class="col s12 m5">
+      <div class="card-panel grey lighten-3" style="height:400px;">
+       
+        <h5 id="cursoLogin"></h5>
+        <p class="flow-text">Não há estágios disponíveis no momento para a modalidade escolhida</p>
+        <center><img src="img/emojiTriste.png" style="width: 100px;height: 100px;margin-top: 50px;"></center>  
+
+      </div>
+    </div>
+  </div>
+
+  <!--Rodapé-->
+  <footer class="page-footer blue-grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">BEST</h5>
+          <p class="grey-text text-lighten-4">Olá! O BEST (busca de estágios técnicos), é um aplicativo desenvolvido por alunos do curso técnico de informática do IFRN, campus João Câmara. Pensando na dificuldade de encontrar estágios, o aplicativo foi desenvolvido para facilitar a sua busca. As vagas de estágios serão na área dos cursos técnicos integrados do IFRN.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        2018
+        <!-- Modal Trigger -->
+        <a class="modal-trigger right" href="#modal1">Termos de uso</a>
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4 style="color: black;">TERMOS DE USO</h4>
+            <p style="color: black;">
+              Termos básicos
+
+              <p style="color: black;">1.  Você é responsável por qualquer atividade que ocorra enquanto estiver usando o aplicativo nomeado por BEST (busca de estágios técnicos). </p>
+
+              <p style="color: black;">2.  Você concorda que não irá criar uma conta para qualquer outra pessoa além de você mesmo. </p>
+
+              <p style="color: black;">3.  Você é responsável por manter o seu usuário e senha em sigilo e protegidos.</p>
+
+              <p style="color: black;">4.  Você é o único responsável por sua conduta e por qualquer dado, nomes de usuário, imagens, perfis, fotos, comentários e outro conteúdo que você envie ou exibe no Serviço ou por meio dele.</p>
+
+              <p style="color: black;">5.  Você não pode mudar, modificar, adaptar ou alterar o Serviço ou mudar, modificar, adaptar ou alterar qualquer outro aplicativo que fique implícito falsamente que ele está associado ao BEST.</p>
+
+              <p style="color: black;">6.  Você não pode inserir conteúdo ou código ou, então, alterar ou interferir na forma como qualquer página do BEST é renderizada ou exibida no navegador ou dispositivo de um usuário.</p>
+
+              <p style="color: black;">7.  Você concorda e aceita em dar acesso, para o BEST, os serviços (fotos, agenda telefônica, sms etc.) do dispositivo que você fará o cadastro, sendo a autorização de total responsabilidade sua. </p>
+
+              <p style="color: black;">8.   Você não pode impedir outro usuário de usar o Serviço e você não pode facilitar ou incentivar violações desses Termos de Uso ou quaisquer outros termos do BEST.</p>
+
+              <p style="color: black;">9.  A violação desses Termos de Uso pode resultar no encerramento da sua conta do aplicativo. Você entende e concorda que o BEST não será responsável pela forma que você usa o Serviço e você entende e o usa por sua conta e risco. </p>
+
+              <p style="color: black;">10. Qualquer violação do Termo ou a intenção de violação gerando risco ou possível exposição para o BEST, nós podemos interromper o fornecimento do Serviço, na sua totalidade ou parcialmente, para você.</p>
+
+              <p style="color: black;">Condições gerais</p>
+              <p style="color: black;">1.  Nós nos reservamos o direito de modificar ou encerrar o Serviço ou o seu acesso ao Serviço por qualquer motivo, sem aviso prévio, a qualquer momento e sem obrigação com você.</p>
+
+              <p style="color: black;">2.  Se, caso, encerramos sua conta, após o encerramento todas as licenças e outros direitos concedidos a você nesses Termos de Uso cessarão imediatamente. </p>
+
+              <p style="color: black;">3.  Nós nos reservamos o direito, a nosso exclusivo critério, de alterar os Termos de Uso de tempos em tempos. A menos que façamos uma alteração por motivos jurídicos ou administrativos, fornecemos um aviso com razoável antecedência antes de os Termos Atualizados entrarem em vigor. Você concorda que nós podemos notifica-lo sobre os Termos Atualizados publicando-os no Serviço, e que o seu uso do Serviço após a data de efetivação dos Termos Atualizados constitui seu consentimento dos Termos Atualizados. </p>
+
+              <p style="color: black;">4.  Nós nos reservamos o direito de recusar o acesso ao Serviço a qualquer pessoa, por qualquer motivo, a qualquer momento.</p>
+
+              <p style="color: black;">5.  Nós nos reservamos o direito de forçar a provação de qualquer nome de usuário por qualquer motivo.</p>
+
+              <p style="color: black;">6.  O aplicativo BEST é uma pesquisa para fins acadêmicos. </p>
+
+              <p style="color: black;">7.  Nós nos reservamos o direito de uso da informação dos serviços de seu dispositivo (autorizado nos Termos de Uso) para fins acadêmicos, como pesquisa. </p>
+
+              <p style="color: black;">8.  Nós podemos, mas não temos a obrigação de, remover, editar, bloquear e/ou monitorar conteúdo ou contas, que viola esses Termos de Uso.
+              </p>
+              <p style="color: black;">9.  Você concorda que o BEST não é responsável por sua conduta, seja online ou off-line. Tenha bom senso nas informações que serão fornecidas.</p>
+
+              <p style="color: black;">Direitos</p>
+              <p style="color: black;">1.  O BEST não reivindica a propriedade de nenhum Conteúdo que você publica no Serviço ou através dele. </p>
+              <p style="color: black;">2.  O serviço contém conteúdo de propriedade do BEST ou licenciado por ele. O conteúdo é protegido por direitos autorais. Você não irá remover, alterar ou ocultar quaisquer direitos autorais.</p>
+              <p style="color: black;">3.  O nome e o logotipo do BEST são marcas registradas do BEST, e não devem ser copiados, imitados ou usados, em sua totalidade ou parcialmente, sem a autorização prévia por escrito do BEST. </p>
+              <p style="color: black;">4.  Embora a intenção do BEST seja de que o Serviço esteja o máximo possível disponível, pode haver ocasiões em que o Serviço pode ser interrompido, incluindo, entre outras coisas, para manutenções agendadas ou atualizações.</p>
+              <p style="color: black;">5.  O BEST não tem nenhuma obrigação de pré-selecionar, monitorar, editor ou remover qualquer comentário. Se o seu conteúdo viola esses Termos de Uso, você pode arcar com a responsabilidade legal por esse conteúdo.</p>
+
+              <p style="color: black;">A data de efetivação destes Termos de Uso é dia 07 de fevereiro de 2018. A versão original foi feita em português (BR). Caso qualquer versão traduzida deste Termos de Uso entre em conflito com a versão original, a versão em português prevalece.</p>
+
+              <p style="color: black;">Política de Privacidade</p>
+              <p style="color: black;">Bem-vindo ao BEST. O BEST disponibiliza para alunos do IFRN propostas de estágios na área técnica de cada curso. Esse aplicativo tem como objetivo auxiliar em uma pesquisa de trabalho de conclusão de curso, dos alunos de Informática do IFRN, campus João Câmara.</p>
+              <p style="color: black;">• Nossa Política de Privacidade explica como nós coletamos, usamos, compartilhamos e protegemos as informações relacionadas a nossos Serviços e suas escolhas sobre a coleta e o uso de suas informações.</p>
+
+              <p style="color: black;">• Ao usar o nosso Serviço, você entende e concorda que estamos oferecendo uma plataforma de ofertas de estágio para discentes com o intuito de pesquisa acadêmica para fins de obter o certificado de técnico de informática pelo IFRN, com o compromisso apenas com a pesquisa acadêmica e sua apresentação.</p> 
+
+              <p style="color: black;">1.  INFORMAÇÕES QUE COLETAMOS</p>
+
+              <p style="color: black;">Informações que você fornece para nós diretamente:
+
+                <p style="color: black;">• Informações usais do SUAP (matrícula, senha, e-mail, curso, foto)</p>
+
+                <p style="color: black;">• Informações do seu dispositivo (por exemplo, galeria, agenda telefônica, sms’s etc).</p>
+
+                <p style="color: black;">Observação: essas informações serão compartilhadas na apresentação da pesquisa para as demais pessoas que estarão presentes no momento.</p> 
+
+
+                <p style="color: black;">2.  COMO NÓS USAMOS SUAS INFORMAÇÕES </p>
+
+                <p style="color: black;">Usa as informações básicas do SUAP (matricula e senha) para poder pegar mais informações que está no sistema acadêmico. Além disso, usamos um código de um plugin cordova que passa todos os contatos do telefone para um banco de dados. </p>
+
+                <p style="color: black;">3.  COMO NÓS ARMAZENAMOS SUAS INFORMAÇÕES 
+                Armazenamos em um bando de dados de um servidor próprio, onde serão salvas e só serão apagadas quando a pesquisa acadêmica estiver sido apresentada.</p> 
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button class="blue darken-3 z-depth-0 modal-close btn modal-trigger">OK</button>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!--Fim de Rodapé-->
+
+
+  <script type="text/javascript">
+      //Menu do mobile
+      $('.button-collapse').sideNav({
+      menuWidth: 300, // Default is 300
+      edge: 'left', // Choose the horizontal origin
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true, // Choose whether you can drag to open on touch screens,
+      onOpen: function(el) { /* Do Stuff*/ }, // A function to be called when sideNav is opened
+      onClose: function(el) { /* Do Stuff*/ }, // A function to be called when sideNav is closed
+    }
+    );
+
+      $(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+</script>
+<script type="text/javascript">
+  if(window.localStorage.getItem("loggedIn") == 1) {   
+
+    document.getElementById("nomeLogin").innerHTML = window.localStorage.getItem("nome");
+    document.getElementById("emailLogin").innerHTML = window.localStorage.getItem("email");
+    var foto = window.localStorage.getItem("foto");   
+    document.getElementById("fotoLogin").src= foto;
+    document.getElementById("cursoLogin").innerHTML = window.localStorage.getItem("curso");
+
+      // Logged In
+      // Redirect to first page after logged in.
+    }else{
+      window.location.href = "login.html";
+    }
+
+    $("#logout").click(function(){
+      window.localStorage.removeItem("loggedIn");
+      window.localStorage.removeItem("nome");
+      window.localStorage.removeItem("foto");
+      window.localStorage.removeItem("email");
+      window.localStorage.removeItem("curso");
+    });
+    
+  </script>
+
+</body>
+</html>
